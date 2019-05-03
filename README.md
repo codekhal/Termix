@@ -15,3 +15,6 @@ ___
 `cd Termix`
 `gcc client.c -lpthread`
 `./a.out user2 hostIp 9999`
+
+## A SCREENSHOT
+![Screen](screen1.png)
