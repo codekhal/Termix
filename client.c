@@ -1,4 +1,3 @@
-//Eugene Li - Multithreaded chat client
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
