@@ -2,19 +2,20 @@
 A chatting client based on Socket.h in Linux terminal
 ___
 ## Terminal Commands
-`cd Termix`
-`gcc server.c -lpthread`
-`./a.out`
+Step 1: `git clone https://github.com/codekhal/Termix.git` <br>
+Step 2: `cd Termix` <br>
+Step 3: `gcc server.c -lpthread` <br>
+Step 4: `./a.out` <br>
 
-**(ON NEW TERMINAL)**
-`cd Termix`
-`gcc client.c -lpthread`
-`./a.out user1 hostIp 9999`
+**(ON Another TERMINAL)**
+Step 1: `cd Termix` <br>
+Step 2: `gcc client.c -lpthread` <br>
+Step 3: `./a.out user1 hostIp 9999` <br>
 
-**(ON NEW TERMINAL)**
-`cd Termix`
-`gcc client.c -lpthread`
-`./a.out user2 hostIp 9999`
+**(ON Another TERMINAL)**
+Step 1: `cd Termix` <br>
+Step 2: `gcc client.c -lpthread` <br>
+Step 3: `./a.out user2 hostIp 9999` <br>
 ___
-## A SCREENSHOT
+## SCREENSHOT
 ![Screen](screen1.png)
